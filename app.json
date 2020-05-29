@@ -1,6 +1,7 @@
+ 
 {
-  "name": "Nezuko-YT-Search",
-  "description": "Mantul.",
+  "name": "AnyDLBot",
+  "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
   "keywords": [
     "telegram",
     "best",
@@ -20,6 +21,8 @@
   "addons": [
   ],
   "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
     "url": "heroku/python"
   }],
   "formation": {
